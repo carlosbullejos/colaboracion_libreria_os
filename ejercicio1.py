@@ -9,3 +9,9 @@ if comprobacion == True: # No incluir nada mas en el IF, es solo para la comprob
     print("El directorio ha sido creado correctamente.")
     
 os.chdir('test') # Cambiar al directorio "test"
+
+os.listdir('test') #Mostrar el contenido del directorio
+
+
+
+

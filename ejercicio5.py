@@ -11,3 +11,5 @@ print(os.getcwd()) # Mostrando por pantalla el directorio actual en el que estam
 os.makedirs('img', exist_ok=True) # Creación del subdirectorio "img"
 os.makedirs('docs', exist_ok=True) # Creación del subdirectorio "docs"
 os.makedirs('otros', exist_ok=True) # Creación del subdirectorio "otros"
+
+os.listdir('datos') #Mostrar los subdirectorios creados
